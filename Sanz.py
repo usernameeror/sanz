@@ -70,15 +70,15 @@ def banner():
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
 def masuk():
     os.system('clear');banner()
-    print ('\n%s%s%s 01 %sLOGIN WITH TOKEN \n%s%s%s 02%s TUTOR TAKE TOKEN \n%s%s%s 00 %sKeluar'%(U,til,K,O,U,til,K,O,U,til,M,O))
+    print ('\n%s%s%s 01 %sLOGIN VIA TOKEN \n%s%s%s 02%s TUTOR AMBIL TOKEN \n%s%s%s 00 %sKeluar'%(U,til,K,O,U,til,K,O,U,til,M,O))
     rom = raw_input ("\n%s# %sPilih %s> %s"%(P,O,M,K))
     if rom in(""):
     	print("%s%s SALAH KONTOL "%(M,til));exit()
     elif rom in ('1','01'):
-        jalan("\n%s!%s JANGAN PAKAI AKUN UTAMA BOS"%(M,O))
+        jalan("\n%s!%s JANGAN PAKAI AKUN UTAMA DI WAJIBKAN AKUN TUMBAL"%(M,O))
     	romz = raw_input("%s# %sTOKEN ISI DISINI %s> %s"%(P,O,M,K))
         if romz in(""):
-        	print ("%s%s ISI KONTOLLLL !!!! "%(M,til))
+        	print ("%s%s 🖕🖕  "%(M,til))
     	try:
             nama = requests.get('https://graph.facebook.com/me?access_token=%s'%(romz)).json()['name']
             print ('\n%s%s LOGIN BERHASIL , WAIT '%(H,til));jeda(2)
@@ -864,7 +864,7 @@ def menu():
         exit('\n\n%s%s tidak ada koneksi%s\n'%(M,til,N))
     banner()
     print ('%s # %sName %s: %s%s%s \n'%(U,O,M,H,nama,O))
-    print ('%s%s%s 01 %sDUMP ID PUBLIK'%(U,til,P,O))
+    print ('%s%s%s 01 %sDUMP ID PUBLIK/FRANDLIS'%(U,til,P,O))
     print ('%s%s%s 02 %sDUMP ID FOLOWERS'%(U,til,P,O))
     print ('%s%s%s 03 %sDUMP ID POSTINGAN'%(U,til,P,O))
     print ('%s%s%s 04 %sDUMP ID ANGGOTA GRUP'%(U,til,P,O))
@@ -874,7 +874,7 @@ def menu():
     print ('%s%s%s 08 %sSETTINGS USER AGENT'%(U,til,P,O))
     print ('%s%s%s 09 %sCHECK HASUL CRACK'%(U,til,P,O))
     print ('%s%s%s 10 %sCHECK OPSI CHECKPOINT'%(U,til,P,O))
-    #print ('%s%s%s 11 %sInfo script'%(U,til,P,O))
+    #print ('%s%s%s 11 %sINGFO SCRPIT'%(U,til,P,O))
     print ('%s%s%s RM %sHAPUS AKUN'%(U,til,P,O))
     print ('%s%s%s 00 %sKELUAR'%(U,til,M,O))
     slut = raw_input('\n%s# %sPilih %s> %s'%(P,O,M,K))
