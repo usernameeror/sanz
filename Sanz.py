@@ -1106,7 +1106,7 @@ def menu():
         print ("%s%s Token invalid "%(M,til));jeda(2);os.system('rm -rf data/token.txt && rm -rf data/cookies');masuk()
     except requests.exceptions.ConnectionError:
         exit('\n\n%s%s tidak ada koneksi%s\n'%(M,til,N))
-    banner()
+    logo()
     print ('%s # %sName %s: %s%s%s \n'%(U,O,M,H,nama,O))
     print ('%s•%s 01 %sDump id public'%(U,P,O))
     print ('%s•%s 02 %sDump id followers'%(U,P,O))
@@ -1119,7 +1119,7 @@ def menu():
     print ('%s•%s 09 %sSetting user agent'%(U,P,O))
     print ('%s•%s 10 %sCek hasil crack'%(U,P,O))
     print ('%s•%s 11 %sCek opsi akun'%(U,P,O))
-#    print ('%s•%s 12 %sInfo script'%(U,P,O))
+    print ('%s•%s 12 %sInfo script'%(U,P,O))
     print ('%s•%s rm %sHapus akun'%(U,P,O))
     print ('%s•%s 00 %sKeluar'%(U,M,O))
     slut = raw_input('\n%s# %sPilih %s> %s'%(P,O,M,K))
