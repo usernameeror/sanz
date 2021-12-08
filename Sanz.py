@@ -146,10 +146,10 @@ def moch_yayan():
     os.system('clear')
     print logo
     IP = requests.get('https://www.yayanxd.my.id/server/ip/').text
-    print '\033[0;96m___________________________________________________________\n';time.sleep(0.03)
-    print ' (\033[0;96m•\033[0;96m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
-    print ' (\033[0;96m•\033[0;96m) IP DEVICE   : %s'%(IP)
-    print '\033[0;96m___________________________________________________________\n';time.sleep(0.03)
+    print '\033[0;92m___________________________________________________________\n';time.sleep(0.03)
+    print ' (\033[0;96m•\033[0;92m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
+    print ' (\033[0;96m•\033[0;93m) IP DEVICE   : %s'%(IP)
+    print '\033[0;93m___________________________________________________________\n';time.sleep(0.03)
     print ' %s01%s Dump id dari teman'%(O,N);time.sleep(0.03)
     print ' %s02%s Dump id dari teman publik'%(O,N);time.sleep(0.03)
     print ' %s03%s Dump id dari total followers'%(O,N);time.sleep(0.03)
