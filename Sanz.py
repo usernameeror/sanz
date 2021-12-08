@@ -94,8 +94,7 @@ logo = '''
    \x1b[1;92m/ __ \      ____ ___  / /_  / __/>>•BINTANG
   \x1b[1;93m/ /_/ /_____/ __ `__ \/ __ \/ /_>>•TZY
  \x1b[1;96m/ _, _/_____/ / / / / / /_/ / __/>>•MULTI
-\x1b[1;96m/_/ |_|     /_/ /_/ /_/_.___/_/>>•BROTE                                 
-                                               '''
+\x1b[1;96m/_/ |_|     /_/ /_/ /_/_.___/_/>>•BROTE                                                                               '''
 
 lo_ngentod = '911685839785854'
 # crack selesai
@@ -150,7 +149,7 @@ def moch_yayan():
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' (\033[0;96m•\033[0m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
     print ' (\033[0;96m•\033[0m) IP DEVICE   : %s'%(IP)
-    print '___________________________________________________________\n';time.sleep(0.03)
+    print \x1b[1;96m'___________________________________________________________\n';time.sleep(0.03)
     print ' [%s1%s]. Dump id dari teman'%(O,N);time.sleep(0.03)
     print ' [%s2%s]. Dump id dari teman publik'%(O,N);time.sleep(0.03)
     print ' [%s3%s]. Dump id dari total followers'%(O,N);time.sleep(0.03)
