@@ -158,7 +158,7 @@ def moch_yayan():
     print ' %s06%s \033[0;93mCHECK INGFO ACCOUNT FB'%(O,N);time.sleep(0.03)
     print ' %s07%s \033[0;93mCHECK HASIL CRACK'%(O,N);time.sleep(0.03)
     print ' %s08%s \033[0;93mSETINGS USER AGENT'%(O,N);time.sleep(0.03)
-    print ' %s09%s \033[0;93mINGFO SCRIPT'%(O,N,O,N);time.sleep(0.03)
+    print ' %s09%s \033[0;93mINGFO SCRIPT'%(O,N);time.sleep(0.03)
     print ' %s00%s %sREMOVE TOKEN%s'%(M,N,M,N);time.sleep(0.03)
     pepek = raw_input('\n [*] menu : ')
     if pepek == '':
