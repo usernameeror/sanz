@@ -530,7 +530,7 @@ def yo_ndak_tau_ko_tanya_saia():
         jalan('\n %s[\x1b[1;93m%s✓%s\x1b[1;93m] USER AGENT BERASIL TERPASANG...'%(N,H,N))
         raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
     elif _asu_ in['T','t']:
-        _agen_ = raw_input(' [%s?%s] MASUKAN USER AGENT :%s '%(O,N,H))
+        _agen_ = raw_input(' [\x1b[1;93m%s?%s\x1b[1;93m] MASUKAN USER AGENT :%s '%(O,N,H))
         open('YNTKTS.txt', 'w').write(_agen_);time.sleep(2)
         jalan('\n %s[%s✓%s] berhasil mengganti user agent...'%(N,H,N))
         raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
