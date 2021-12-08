@@ -20,16 +20,7 @@ except ImportError:
     exit(' pip2 install bs4 *not installed')
 
 logo = """
-\x1b[37m   __     __  _   _   _______   _  __   _____ 
- \ \   / / | \ | | |__   __| | |/ /  / ____|
-  \ \_/ /  |  \| |    | |    | ' /  | (___  
-   \   /   | . ` |    | |    |  <    \___ \ 
-    | |    | |\  |    | |    | . \   ____) |
-    |_|    |_| \_|    |_|    |_|\_\ |_____/ ®Salam Dari Binjai
-Author:Fais Hengker Wibu Pro Alok Tzy
-Github:https://ShadowXfrangk
-My Facebook:Konsol
-NOTE:Jangan Crack Terus"an Kalok Tidak Mau Kuota Kalian Habis dengan Cepat
+
  [x]____________________________________________________________________________[×]
 """
 hostm="https://m.facebook.com"
