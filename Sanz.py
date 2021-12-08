@@ -160,9 +160,9 @@ def moch_yayan():
     print ' %s08%s \033[0;93mSETINGS USER AGENT'%(O,N);time.sleep(0.03)
     print ' %s09%s \033[0;93mINGFO SCRIPT'%(O,N);time.sleep(0.03)
     print ' %s00%s %sREMOVE TOKEN%s'%(M,N,M,N);time.sleep(0.03)
-    pepek = raw_input('\n [*] menu : ')
+    pepek = raw_input('\n \x1b[1;93m[•] menu : \x1b[1;92m')
     if pepek == '':
-        print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(2);moch_yayan()
+        print '\n %s[%s×%s] NIAT NGISI GAK??'%(N,M,N);time.sleep(2);moch_yayan()
     elif pepek in['1','01']:
         teman(kontol)
     elif pepek in['2','02']:
