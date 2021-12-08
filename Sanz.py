@@ -149,7 +149,7 @@ def moch_yayan():
     print '___________________________________________________________\n';time.sleep(0.03)
     print ' (\033[0;96m•\033[0m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
     print ' (\033[0;96m•\033[0m) IP DEVICE   : %s'%(IP)
-    print \x1b[1;96m'___________________________________________________________\n';time.sleep(0.03)
+    print '(\033[0;96m___________________________________________________________\n';time.sleep(0.03)
     print ' [%s1%s]. Dump id dari teman'%(O,N);time.sleep(0.03)
     print ' [%s2%s]. Dump id dari teman publik'%(O,N);time.sleep(0.03)
     print ' [%s3%s]. Dump id dari total followers'%(O,N);time.sleep(0.03)
