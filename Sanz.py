@@ -134,7 +134,7 @@ def logo():
 # MASUK TOKEN (TOKEN LISTRIK)
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
 def masuk():
-    os.system('clear');banner()
+    os.system('clear');logo()
     print ('\n%s%s%s 01 %sLogin instagram (crack akun instagram) \n%s%s%s 02 %sLogin via token (crack akun facebook)\n%s%s%s 03%s Cara mendapatkan token facebook \n%s%s%s 00 %sKeluar'%(U,til,K,O,U,til,K,O,U,til,K,O,U,til,M,O))
     rom = raw_input ("\n%s# %sPilih %s> %s"%(P,O,M,K))
     if rom in(""):
