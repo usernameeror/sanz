@@ -545,7 +545,7 @@ class __crack__:
 
     def plerr(self):
         try:
-            self.apk = raw_input('\n [%s?%s] masukan file : '%(O,N))
+            self.apk = raw_input('\n \x1b[1;93m[%s?%s\x1b[1;93m] masukan file : \x1b[1;92m'%(O,N))
             self.id = open(self.apk).read().splitlines()
             print '\n [%s+%s] total id -> %s%s%s' %(O,N,M,len(self.id),N)
         except:
