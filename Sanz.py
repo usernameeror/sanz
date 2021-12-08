@@ -125,11 +125,11 @@ def folder():
 def logo():
 	os.system("clear")
 	print("""%s
-\x1b[1;91m___________          _____ _____________________
-\x1b[1;92m\_   _____/         /     \\______   \_   _____/
-\x1b[1;93m |    __)  ______  /  \ /  \|    |  _/|    __)  
-\x1b[1;94m |    |   /_____/ /    Y    \    |   \|     \   
-\x1b[1;95m \___ |           \____|__  /______  /\___  /   
+\x1b[1;91m___________         _____ _____________________
+\x1b[1;92m\_   _____/        /     \\______   \_   _____/>>AUTHOR
+\x1b[1;93m |    __) ______  /  \ /  \|    |  _/|    __)>>BINTANG
+\x1b[1;94m |    |  /_____/ /    Y    \    |   \|     \>>TZY 
+\x1b[1;95m \___ |          \____|__  /______  /\___  />>BROTE
 \x1b[1;96m     \/                   \/       \/     \/      """%(N))   
 # MASUK TOKEN (TOKEN LISTRIK)
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
