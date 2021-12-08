@@ -90,12 +90,12 @@ def tod():
 
 # LO KONTOL
 logo = ''' 
-   \x1b[1;92m ____                  __    ____~>•AUTHOR>><<
-   \x1b[1;92m/ __ \      ____ ___  / /_  / __/>>•BINTANG
-  \x1b[1;93m/ /_/ /_____/ __ `__ \/ __ \/ /_>>•TZY
- \x1b[1;96m/ _, _/_____/ / / / / / /_/ / __/>>•MULTI
-\x1b[1;91m/_/ |_|     /_/ /_/ /_/_.___/_/>>•BROTE                                                                               '''
-
+   \x1b[1;92m  ____                  __    ____~>•AUTHOR>><<
+   \x1b[1;92m / __ \      ____ ___  / /_  / __/>>•BINTANG>><<
+  \x1b[1;93m / /_/ /_____/ __ `__ \/ __ \/ /_>>•TZY>><<
+ \x1b[1;96m / _, _/_____/ / / / / / /_/ / __/>>•MULTI>><<
+\x1b[1;91m / / | |     /_/ /_/ /_/_.___/_/>>•BROTE>><<                                                                               '''
+/x1b[1;91m/_/  |_|
 lo_ngentod = '911685839785854'
 # crack selesai
 def hasil(ok,cp):
@@ -525,13 +525,13 @@ def yo_ndak_tau_ko_tanya_saia():
     if _asu_ == '':
         print '\n %s[%s×%s] Gak boleh kosong Kentod'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
     elif _asu_ in['Y','y']:
-        jalan('\n %s *%s anda akan di arakan ke situs web setelah di arahkan ke situs web.\n  %s*%s klik ikon %sMY USER AGENT%s lalu copy semua user agent anda...'%(O,N,O,N,H,N));time.sleep(2);os.system('xdg-open https://www.yayanxd.my.id/server')
-        _agen_ = raw_input(' [%s?%s] masukan user agent hp anda :%s '%(O,N,H))
+        jalan('\n %s *%s \x1b[1;93mMASUK KE GOOGLE/GOOGLE CHROME LALU KETIK\n  %s*%s \x1b[1;93mDI PENCARIAN %sMY USER AGENT%s \x1b[1;93mLALU COOPY USER AGENT ANDA!!'%(O,N,O,N,H,N));time.sleep(2);os.system('')
+        _agen_ = raw_input(' [\x1b[1;93m%s?%s\x1b[1;93m] USER AGENT :%s '%(O,N,H))
         open('YNTKTS.txt', 'w').write(_agen_);time.sleep(2)
-        jalan('\n %s[%s✓%s] berhasil menggunakan user agent hp anda...'%(N,H,N))
+        jalan('\n %s[\x1b[1;93m%s✓%s\x1b[1;93m] USER AGENT BERASIL TERPASANG...'%(N,H,N))
         raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
     elif _asu_ in['T','t']:
-        _agen_ = raw_input(' [%s?%s] masukan user agent :%s '%(O,N,H))
+        _agen_ = raw_input(' [%s?%s] MASUKAN USER AGENT :%s '%(O,N,H))
         open('YNTKTS.txt', 'w').write(_agen_);time.sleep(2)
         jalan('\n %s[%s✓%s] berhasil mengganti user agent...'%(N,H,N))
         raw_input('\n  %s[ %skembali%s ]'%(N,O,N));moch_yayan()
