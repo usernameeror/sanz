@@ -238,8 +238,8 @@ def teman(kontol):
         os.mkdir('dump')
     except:pass
     try:
-        mmk = raw_input('\n %s[%s?%s] nama file  : '%(N,O,N))
-        asw = raw_input(' %s[%s?%s] limit id   : '%(N,O,N))
+        mmk = raw_input('\n %s\x1b[1;93m[%s?%s] nama file  : \x1b[1;92m'%(N,O,N))
+        asw = raw_input(' %s\x1b[1;93m[%s?%s] limit id   : \x1b[1;92m'%(N,O,N))
         cin = ('dump/' + mmk + '.json').replace(' ', '_')
         ys  = open(cin, 'w')
         for a in requests.get('https://graph.facebook.com/me/friends?limit=%s&access_token=%s'%(asw,kontol)).json()["data"]:
@@ -269,9 +269,9 @@ def publik(kontol):
         os.mkdir('dump')
     except:pass
     try:
-        csy = raw_input('\n %s[%s?%s] id publik  : '%(N,O,N))
-        ahh = raw_input(' %s[%s?%s] nama file  : '%(N,O,N))
-        ihh = raw_input(' %s[%s?%s] limit id   : '%(N,O,N))
+        csy = raw_input('\n %s\x1b[1;93m[%s?%s] id publik  : \x1b[1;92m'%(N,O,N))
+        ahh = raw_input(' %s\x1b[1;93m[%s?%s] nama file  : \x1b[1;92m'%(N,O,N))
+        ihh = raw_input(' %s\x1b[1;93m[%s?%s] limit id   : \x1b[1;92m'%(N,O,N))
         knt = ('dump/' + ahh + '.json').replace(' ', '_')
         ys  = open(knt, 'w')
         for a in requests.get('https://graph.facebook.com/%s/friends?limit=%s&access_token=%s'%(csy,ihh,kontol)).json()["data"]:
@@ -298,9 +298,9 @@ def followers(kontol):
         os.mkdir('dump')
     except:pass
     try:
-        csy = raw_input('\n %s[%s?%s] id follow  : '%(N,O,N))
-        mmk = raw_input(' %s[%s?%s] nama file  : '%(N,O,N))
-        asw = raw_input(' %s[%s?%s] limit id   : '%(N,O,N))
+        csy = raw_input('\n %s\x1b[1;93m[%s?%s] id follow  : \x1b[1;92m'%(N,O,N))
+        mmk = raw_input(' %s\x1b[1;93m[%s?%s] nama file  : \x1b[1;92m'%(N,O,N))
+        asw = raw_input(' %s\x1b[1;93m[%s?%s] limit id   : \x1b[1;92m'%(N,O,N))
         ah  = ('dump/' + mmk + '.json').replace(' ', '_')
         ys  = open(ah, 'w')
         for a in requests.get('https://graph.facebook.com/%s/subscribers?limit=%s&access_token=%s'%(csy,asw,kontol)).json()["data"]:
