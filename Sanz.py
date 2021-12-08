@@ -121,13 +121,16 @@ def folder():
 		open("data/ua.txt","w").write(ua_)
 	except:
 		pass
-# LOGO (LO GOBLOK)
-IP = requests.get("https://api.ipify.org/").text
-exec(base64.b64decode('YXV0aG9yID0iUm9taSBBZnJpemFsIgpmYl9tZSA9ImZhY2Vib29rLmNvbS9yb21pLmFmcml6YWwuMTAyIgpnaXRodWIgPSJnaXRodWIuY29tL01hcmstWnVjayI='))
-def banner(): 
-    print (' %s%s%s%s%s%s                                      %s%s%s%s%s%s\n%s   _______  ______ _______ _______ _     _\n   |       |_____/ |_____| |       |____/ \n%s   |_____  |    \\_ |     | |_____  |    \\_\n\n     %s    %s %sCoded by %s: %s%s %s%s   \n %s%s%s%s%s%s                                      %s%s%s%s%s%s \n %s# %sFb  %s : %s%s \n %s# %sGit%s  : %s%s \n %s# %s---------------------------------------- %s#  '%
-    (M,til,K,til,H,til,M,til,K,til,H,til,M,P,U,til,K,M,K,author,U,til,M,til,K,til,H,til,M,til,K,til,H,til,U,O,M,O,fb_me,U,O,M,O,github,P,M,P))
-    print (' %s#%s IP   %s:%s %s%s '%(U,O,M,O,IP,M))
+### BAGIAN LOGO ###
+def logo():
+	os.system("clear")
+	print("""%s
+\x1b[1;91m___________          _____ _____________________
+\x1b[1;92m\_   _____/         /     \\______   \_   _____/
+\x1b[1;93m |    __)  ______  /  \ /  \|    |  _/|    __)  
+\x1b[1;94m |    |   /_____/ /    Y    \    |   \|     \   
+\x1b[1;95m \___ |           \____|__  /______  /\___  /   
+\x1b[1;96m     \/                   \/       \/     \/      """%(N))   
 # MASUK TOKEN (TOKEN LISTRIK)
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
 def masuk():
