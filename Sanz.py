@@ -94,7 +94,7 @@ logo = '''
    \x1b[1;92m/ __ \      ____ ___  / /_  / __/>>•BINTANG
   \x1b[1;93m/ /_/ /_____/ __ `__ \/ __ \/ /_>>•TZY
  \x1b[1;96m/ _, _/_____/ / / / / / /_/ / __/>>•MULTI
-\x1b[1;96m/_/ |_|     /_/ /_/ /_/_.___/_/>>•BROTE                                                                               '''
+\x1b[1;91m/_/ |_|     /_/ /_/ /_/_.___/_/>>•BROTE                                                                               '''
 
 lo_ngentod = '911685839785854'
 # crack selesai
@@ -146,20 +146,20 @@ def moch_yayan():
     os.system('clear')
     print logo
     IP = requests.get('https://www.yayanxd.my.id/server/ip/').text
-    print '\033[0;92m----------------------------------------------------\n';time.sleep(0.03)
+    print '\033[0;92m-----------------------------------------------------\n';time.sleep(0.03)
     print ' (\033[0;96m•\033[0;92m) ACTIVE USER : %s'%(nama);time.sleep(0.03)
     print ' (\033[0;96m•\033[0;93m) IP DEVICE   : %s'%(IP)
-    print '\033[0;92m----------------------------------------------------\n';time.sleep(0.03)
-    print ' %s01%s Dump id dari teman'%(O,N);time.sleep(0.03)
-    print ' %s02%s Dump id dari teman publik'%(O,N);time.sleep(0.03)
-    print ' %s03%s Dump id dari total followers'%(O,N);time.sleep(0.03)
-    print ' %s04%s Dump id dari like postingan'%(O,N);time.sleep(0.03)
-    print ' %s05%s Mulai crack'%(O,N);time.sleep(0.03)
-    print ' %s06%s Check ingformasi akun fb'%(O,N);time.sleep(0.03)
-    print ' %s07%s Lihat hasil crack'%(O,N);time.sleep(0.03)
-    print ' %s08%s Settings user agent'%(O,N);time.sleep(0.03)
-    print ' %s09%s Ingfo %sscript%s'%(O,N,O,N);time.sleep(0.03)
-    print ' %s00%s logout (%shapus token%s)'%(M,N,M,N);time.sleep(0.03)
+    print '\033[0;92m-----------------------------------------------------\n';time.sleep(0.03)
+    print ' %s01%s \033[0;93mDUMP ID DARI PRANDLIS'%(O,N);time.sleep(0.03)
+    print ' %s02%s \033[0;93mDUMP ID DARI PUBLIC'%(O,N);time.sleep(0.03)
+    print ' %s03%s \033[0;93mDUMP ID DARI FOLOWERS'%(O,N);time.sleep(0.03)
+    print ' %s04%s \033[0;93mDUMP ID DARI LIKE POST'%(O,N);time.sleep(0.03)
+    print ' %s05%s \033[0;92mSTART CR4CK'%(O,N);time.sleep(0.03)
+    print ' %s06%s \033[0;93mCHECK INGFO ACCOUNT FB'%(O,N);time.sleep(0.03)
+    print ' %s07%s \033[0;93mCHECK HASIL CRACK'%(O,N);time.sleep(0.03)
+    print ' %s08%s \033[0;93mSETINGS USER AGENT'%(O,N);time.sleep(0.03)
+    print ' %s09%s \033[0;93mINGFO SCRIPT'%(O,N,O,N);time.sleep(0.03)
+    print ' %s00%s %sREMOVE TOKEN%s'%(M,N,M,N);time.sleep(0.03)
     pepek = raw_input('\n [*] menu : ')
     if pepek == '':
         print '\n %s[%s×%s] jangan kosong kentod!'%(N,M,N);time.sleep(2);moch_yayan()
