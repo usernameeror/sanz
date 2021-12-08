@@ -501,9 +501,9 @@ def info_tools():
 
 ### ganti user agent
 def seting_yntkts():
-    print '\n (%s1%s) ganti user agent'%(O,N)
-    print ' (%s2%s) check user agent'%(O,N)
-    ytbjts = raw_input('\n %s[%s?%s] choose : '%(N,O,N))
+    print '\n \x1b[1;93m(%s1%s\x1b[1;93m) ganti user agent'%(O,N)
+    print ' \x1b[1;93m(%s2%s\x1b[1;93m) check user agent'%(O,N)
+    ytbjts = raw_input('\n %s[\x1b[1;93m%s?%s\x1b[1;93m] choose : \x1b[1;92m'%(N,O,N))
     if ytbjts == '':
         print '\n %s[%s×%s] Gak boleh kosong Kentod'%(N,M,N);time.sleep(2);seting_yntkts()
     elif ytbjts in['1','01']:
@@ -520,7 +520,7 @@ def seting_yntkts():
 # User Agent baru
 def yo_ndak_tau_ko_tanya_saia():
     os.system('rm -rf YNTKTS.txt')
-    _asu_ = raw_input('\n [%s?%s] ingin menggunakan user agent hp anda [Y/t]: '%(O,N))
+    _asu_ = raw_input('\n [\x1b[1;93m%s?%s\x1b[1;93m] INGIN MENGUNAKAN USER AGENT HP ANDA [Y/T]: \x1b[1;92m'%(O,N))
     if _asu_ == '':
         print '\n %s[%s×%s] Gak boleh kosong Kentod'%(N,M,N);yo_ndak_tau_ko_tanya_saia()
     elif _asu_ in['Y','y']:
